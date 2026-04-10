@@ -1,0 +1,1 @@
+import type { Database } from './types/database'; type Tables = keyof Database['public']['Tables']; type SessionRow = Database['public']['Tables']['sessions']['Row']; const test: Tables = 'sessions'; const id: SessionRow['id'] = '123';
